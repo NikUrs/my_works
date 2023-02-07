@@ -31,7 +31,7 @@ delete user_name from user where skill < 100000;
 
 3. Вывести все данные из таблицы user в порядке убывания по полю skill 
 
-select * from user order by skill decs; 
+select * from user order by skill desc; 
 
 4. Добавить в таблицу user нового пользователя по имени Oleg, с уровнем 4 и skill = 10     
 
